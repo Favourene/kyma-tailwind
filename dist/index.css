@@ -1,0 +1,13 @@
+.nav {
+  min-height: 10vh;
+  transition: height 1s ease-in-out;
+}
+.collapse {
+  height: 30rem;
+}
+
+@media screen and (max-width: 1023px) {
+  .nav {
+    min-height: 8vh;
+  }
+}
