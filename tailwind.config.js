@@ -2,7 +2,18 @@ module.exports = {
   purge: [],
   darkMode: false, // or 'media' or 'class'
   theme: {
-    extend: {},
+    extend: {
+      height: {
+        sm: '30vh',
+        md: '50vh',
+        lg: '70vh',
+        xl: '95vh',
+      },
+      width: {
+        '3/7': '45%',
+        '4/7': '30%',
+      },
+    },
     screens: {
       '2xl': { max: '1535px' },
       // => @media (max-width: 1535px) { ... }

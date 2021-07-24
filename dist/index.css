@@ -5,6 +5,10 @@
 .collapse {
   height: 30rem;
 }
+.grove{
+  
+    background-position: -300px 5px;
+}
 
 @media screen and (max-width: 1023px) {
   .nav {
