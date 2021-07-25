@@ -38,7 +38,7 @@
         </div>
         <div class="flex lg:flex-col">
           <ul class="flex mr-8 pt-2 lg:flex-col">
-            <a href="#" class="px-4 hover:text-blue-500 lg:pl-0 lg:py-4"
+            <a href="#a" class="px-4 hover:text-blue-500 lg:pl-0 lg:py-4"
               ><li>Overview</li></a
             >
             <a href="#" class="px-4 hover:text-blue-500 lg:pl-0 lg:py-4">
@@ -102,6 +102,7 @@
       </div>
     </nav>
     <section
+    id="a"
       class="
         h-screen
         bg-cover bg-no-repeat bg-center
@@ -215,13 +216,13 @@
         </p>
         <button
           class="
-            text-xl
-            bg-blue-500
+           text-xl
+            bg-blue-800
             px-14
             py-4
             text-white
             rounded
-            hover:bg-green-400
+            hover:bg-blue-500
             sm:mb-3
             smm:text-lg
           "
@@ -298,40 +299,64 @@
         </div>
       </div>
     </section>
-    <section class="p-20">
+    <section class="p-20 lg:p-5">
       <div class="text-center">
         <h1 class="text-4xl pb-4">Products</h1>
         <p class="text-lg text-gray-600">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eius mod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
       </div>
-      <!-- <div class="flex pt-20">
-        <div>
-          <div>
-            <img src="./img/product1.png" alt="">
+      <div class="flex pt-20 justify-between flex-wrap">
+        <div class="w-4/7 flex items-center flex-col md:w-full md:pb-5">
+          <div class="pb-14 md:w-2/5">
+            <img class="md:w-full" src="./img/product1.png" alt="">
           </div>
-          <h2>Title number one</h2>
-          <h3>$125 <span>$150</span></h3>
-          <p>Save $25</p>
-          <button>VIEW DETAILS</button>
+          <h2 class="text-3xl font-normal pb-5">Title number one</h2>
+          <h3 class="text-4xl">$125 <span class="line-through font-thin text-2xl text-blue-600">$150</span></h3>
+          <p class="text-green-500 py-3">Save $25</p>
+          <button class="text-xl
+            bg-blue-800
+            px-14
+            py-4
+            text-white
+            rounded
+            hover:bg-blue-500
+            sm:mb-3
+            smm:text-lg">VIEW DETAILS</button>
         </div>
-        <div>
-          <div>
-            <img src="./img/product2.png" alt="">
+        <div class="w-4/7 flex items-center flex-col md:w-full md:pb-5">
+          <div class="pb-14 md:w-2/5">
+            <img class="md:w-full" src="./img/product2.png" alt="">
           </div>
-          <h2>Title number two</h2>
-          <h3>$140 <span>$190</span></h3>
-          <p>Save $50</p>
-          <button>VIEW DETAILS</button>
+          <h2 class="text-3xl font-normal pb-5">Title number two</h2>
+          <h3 class="text-4xl">$140 <span class="line-through font-thin text-2xl text-blue-600">$190</span></h3>
+          <p class="text-green-500 py-3">Save $50</p>
+          <button class="text-xl
+            bg-blue-800
+            px-14
+            py-4
+            text-white
+            rounded
+            hover:bg-blue-500
+            sm:mb-3
+            smm:text-lg">VIEW DETAILS</button>
         </div>
-        <div>
-          <div>
-            <img src="./img/product3.png" alt="">
+        <div class="w-4/7 flex items-center flex-col md:w-full md:pb-5">
+          <div class="pb-14 md:w-2/5">
+            <img class="md:w-full" src="./img/product3.png" alt="">
           </div>
-          <h2>Title number three</h2>
-          <h3>$199 <span>$299</span></h3>
-          <p>Save $100</p>
-          <button>VIEW DETAILS</button>
+          <h2 class="text-3xl font-normal pb-5">Title number three</h2>
+          <h3 class="text-4xl">$199 <span class="line-through font-thin text-2xl text-blue-600">$299</span></h3>
+          <p class="text-green-500 py-3">Save $100</p>
+          <button class="text-xl
+            bg-blue-800
+            px-14
+            py-4
+            text-white
+            rounded
+            hover:bg-blue-500
+            sm:mb-3
+            smm:text-lg">VIEW DETAILS</button>
         </div>
-      </div> -->
+      </div>
     </section>
     <section class="h-screen bg-indigo-200"></section>
     <script src="./script.js"></script>
