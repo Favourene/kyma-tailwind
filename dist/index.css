@@ -12,7 +12,13 @@ html{
   
     background-position: -300px 5px;
 }
-
+.pra{
+  display: none;
+  transition: opacity 3s ease-out;
+}
+.pre:hover .pra{
+  display: block;
+}
 @media screen and (max-width: 1023px) {
   .nav {
     min-height: 8vh;
